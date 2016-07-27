@@ -25,3 +25,5 @@ for s in linkset:
             print("Movie added: ", s, len(movieset))
     except Exception:
         pass
+with open(new.title, 'w') as f2:
+    f2.write("\n".join(movieset))
