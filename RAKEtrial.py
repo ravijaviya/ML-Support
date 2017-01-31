@@ -1,3 +1,4 @@
+#Latest implementation of Rake using NLTK
 from rake_nltk import  Rake
 
 with open('plot_the_big_short','r') as p:
